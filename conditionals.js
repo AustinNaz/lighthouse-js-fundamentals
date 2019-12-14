@@ -1,3 +1,11 @@
+const cold = false;
+
+if (cold) {
+  console.log('Make sure you pick up a scarf!');
+} else {
+  console.log('Short sleeves are fine');
+}
+
 const temprature = -1;
 
 if (temprature < 0) {
